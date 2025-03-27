@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Página 4</title>  
+    <link rel="stylesheet" href="estilo.css"> 
+</head>  
+<body>  
+    <form id="formPage4"> 
+        <fieldset> 
+        <h2>Página 4:Registro de Internamientos Realizados</h2> <br>
+        <label for="fecha">Fecha:</label>  
+        <input type="datetime-local" id="fecha" required><br>
+        <label for="hospital">Centro Medico:</label>  
+        <input type="text" id="hospital" required><br>
+        <label for="diagnostico">Diagnostico:</label>  
+        <input type="text" id="diagnostico" required><br>
+
+        <button type="button" onclick="atras('page3.html')">Anterior</button>  
+        <button type="button" onclick="submitData()">Enviar</button>  
+
+    </fieldset>  
+    </form>  
+  <script src="pag4.js"></script>
+   <div id="output"></div>
+</body>  
+</html>  
