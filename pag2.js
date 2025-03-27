@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function siguientePag(page) {  
     const nombreF = document.getElementById('nombre').value;  
     localStorage.setItem('nombre', nombreF); 
-    const psrentesco = document.getElementById('parentesco').value;  
+    const parentesco = document.getElementById('parentesco').value;  
     localStorage.setItem('parentesco', parentesco); 
     const edadF = document.getElementById('edad').value;  
     localStorage.setItem('edad', edadF); // Guardar dato en localStorage  
