@@ -33,7 +33,7 @@ function submitData() {
           
     };  
     console.log("Datos enviados:", data);  
-    alert('Datos guardados, revisa la consola para ver el resultado.');  
+    alert('Datos guardados');  
 
 
 
